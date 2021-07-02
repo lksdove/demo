@@ -1,0 +1,113 @@
+2020-08-21 15:01:02.669 dev ERROR 26668 --- [Druid-ConnectionPool-Create-1497973001] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://47.110.135.139:3306/mysql?useSSL=true&serverTimezone=GMT, errorCode 0, state 08S01
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2037)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:291)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:283)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1596)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1960)
+	... 12 common frames omitted
+
+2020-08-21 15:01:23.673 dev ERROR 26668 --- [Druid-ConnectionPool-Create-1497973001] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://47.110.135.139:3306/mysql?useSSL=true&serverTimezone=GMT, errorCode 0, state 08S01
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2037)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:291)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:283)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1596)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1960)
+	... 12 common frames omitted
+
+2020-08-21 15:03:59.976 dev ERROR 26496 --- [http-nio-8989-exec-2] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:05:05.408 dev ERROR 28012 --- [http-nio-8989-exec-1] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:05:06.673 dev ERROR 28012 --- [http-nio-8989-exec-4] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:05:51.838 dev ERROR 28012 --- [http-nio-8989-exec-9] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:12:14.034 dev ERROR 23120 --- [http-nio-8989-exec-1] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:12:15.985 dev ERROR 23120 --- [http-nio-8989-exec-4] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:12:25.367 dev ERROR 23120 --- [http-nio-8989-exec-6] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:12:30.231 dev ERROR 23120 --- [http-nio-8989-exec-7] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:12:31.188 dev ERROR 23120 --- [http-nio-8989-exec-9] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:12:50.625 dev ERROR 23120 --- [http-nio-8989-exec-2] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:12:51.779 dev ERROR 23120 --- [http-nio-8989-exec-4] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:41:01.505 dev ERROR 26900 --- [http-nio-8989-exec-1] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:41:02.880 dev ERROR 26900 --- [http-nio-8989-exec-3] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:41:03.631 dev ERROR 26900 --- [http-nio-8989-exec-7] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:41:05.001 dev ERROR 26900 --- [http-nio-8989-exec-8] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:41:08.938 dev ERROR 26900 --- [http-nio-8989-exec-10] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:41:12.713 dev ERROR 26900 --- [http-nio-8989-exec-1] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:41:16.918 dev ERROR 26900 --- [http-nio-8989-exec-3] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:42:12.842 dev ERROR 26900 --- [http-nio-8989-exec-7] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:42:19.812 dev ERROR 26900 --- [http-nio-8989-exec-8] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:42:51.210 dev ERROR 26900 --- [http-nio-8989-exec-10] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:47:51.689 dev ERROR 26900 --- [http-nio-8989-exec-1] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:48:13.567 dev ERROR 26900 --- [http-nio-8989-exec-3] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:48:49.201 dev ERROR 26900 --- [http-nio-8989-exec-7] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:48:57.363 dev ERROR 26900 --- [http-nio-8989-exec-8] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:49:17.740 dev ERROR 26900 --- [http-nio-8989-exec-10] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:50:36.888 dev ERROR 27232 --- [http-nio-8989-exec-2] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:50:54.002 dev ERROR 27232 --- [http-nio-8989-exec-4] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:51:01.543 dev ERROR 27232 --- [http-nio-8989-exec-6] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:51:23.123 dev ERROR 27232 --- [http-nio-8989-exec-7] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！
+2020-08-21 15:53:56.444 dev ERROR 27232 --- [http-nio-8989-exec-3] c.z.d.exception.GlobalExceptionHandler   : 内部错误！！！

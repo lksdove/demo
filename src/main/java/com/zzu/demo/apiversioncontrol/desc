@@ -1,0 +1,12 @@
+api版本控制
+1、定义注解APIVersion
+
+2、通过继承RequestMappingHandlerMapping，
+利用反射对类或方法上的 @RequestMapping 来生成 RequestMappingInfo 的实例。
+我们覆盖 registerHandlerMethod 方法的实现，从 @APIVersion 自定义注解中读
+取版本信息，拼接上原有的、不带版本号的 URL Pattern，构成新的 RequestMappingInfo，
+来通过注解的方式为接口增加基于 URL 的版本号；
+
+3、通过实现 WebMvcRegistrations 接口，来生效自定义的 APIVersionHandlerMapping：
+
+4、通过ApiControllerTest测试

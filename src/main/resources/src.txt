@@ -1,0 +1,30 @@
+<dynamic>
+ <isNotNull property="">
+    and dealer_name like ##
+ </isNotNull>
+</dynamic>
+
+to_char(a.operate_time,'yyyy-MM-dd') as opertime,
+
+http://localhost:65502/whhim-mdm
+
+http://localhost:65506/whhim-mes
+
+http://localhost:65509/whhim-qcs
+
+aa00000000 5GHZ密码
+
+TAPD密码：WWW619967com
+
+12716 : ZJUT213hxj
+YAPI 接口网站 用户名：huangxiaojian@wahaha.com.cn 密码：zjut213hxj
+
+
+仓储管理系统 用户名：test1 密码：123456
+阿里云服务器密码：pQHBecr9g3JZKUJ
+netstat  -aon|findstr "65503"//找到某个端口下的进程
+taskkill -PID 16188 -F//杀手进程
+
+---------------------------------------------------------------------------------------------------------------------
+日常工作记录：
+1、开发SRM所需主数据接口

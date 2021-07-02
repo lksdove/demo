@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Class-Path: spring-jdbc-5.1.8.RELEASE.jar tomcat-annotations-api-9.0.2
+ 1.jar validation-api-2.0.1.Final.jar h2-1.4.199.jar spring-webmvc-5.1
+ .8.RELEASE.jar logback-classic-1.2.3.jar jackson-core-2.9.9.jar ecj-4
+ .4.jar commons-collections4-4.4.jar springfox-spring-web-2.2.2.jar sa
+ aj-impl-1.5.0.jar commons-codec-1.13.jar spring-plugin-metadata-1.2.0
+ .RELEASE.jar HikariCP-3.2.0.jar javax.activation-api-1.2.0.jar annota
+ tions-18.0.0.jar tomcat-embed-jasper-7.0.59.jar spring-boot-starter-t
+ omcat-2.1.6.RELEASE.jar spring-plugin-core-1.2.0.RELEASE.jar spring-h
+ ateoas-0.25.1.RELEASE.jar jboss-logging-3.3.2.Final.jar mybatis-3.2.8
+ .jar tomcat-embed-websocket-9.0.21.jar slf4j-api-1.7.26.jar spring-tx
+ -5.1.8.RELEASE.jar mysql-connector-java-8.0.17.jar spring-web-5.1.8.R
+ ELEASE.jar snakeyaml-1.23.jar jackson-datatype-jdk8-2.9.9.jar spring-
+ ws-core-3.0.7.RELEASE.jar jackson-annotations-2.9.0.jar spring-boot-s
+ tarter-json-2.1.6.RELEASE.jar druid-1.1.17.jar mapstruct-1.0.0.CR1.ja
+ r javax.annotation-api-1.3.2.jar stax-ex-1.8.jar commons-compress-1.1
+ 9.jar spring-boot-starter-web-services-2.1.6.RELEASE.jar persistence-
+ api-1.0.jar jul-to-slf4j-1.7.26.jar spring-aop-5.1.8.RELEASE.jar spri
+ ng-boot-autoconfigure-2.1.6.RELEASE.jar spring-boot-starter-jdbc-2.1.
+ 6.RELEASE.jar spring-core-5.1.8.RELEASE.jar spring-jcl-5.1.8.RELEASE.
+ jar springfox-swagger2-2.2.2.jar springfox-swagger-common-2.2.2.jar c
+ ommons-io-2.6.jar springfox-swagger-ui-2.2.2.jar guava-18.0.jar swagg
+ er-models-1.5.3.jar spring-expression-5.1.8.RELEASE.jar aspectjweaver
+ -1.9.4.jar mybatis-spring-boot-autoconfigure-1.0.0.jar spring-context
+ -5.1.8.RELEASE.jar spring-beans-5.1.8.RELEASE.jar spring-oxm-5.1.8.RE
+ LEASE.jar commons-lang3-3.9.jar jaxb-api-2.3.1.jar mybatis-spring-boo
+ t-starter-1.0.0.jar springfox-core-2.2.2.jar jstl-1.2.jar jaxws-api-2
+ .3.1.jar spring-boot-starter-2.1.6.RELEASE.jar log4j-to-slf4j-2.11.2.
+ jar javax.xml.soap-api-1.4.0.jar mimepull-1.9.11.jar jackson-module-p
+ arameter-names-2.9.9.jar spring-xml-3.0.7.RELEASE.jar spring-boot-sta
+ rter-web-2.1.6.RELEASE.jar tomcat-embed-el-9.0.21.jar tomcat-embed-co
+ re-9.0.21.jar hibernate-validator-6.0.17.Final.jar swagger-annotation
+ s-1.5.3.jar jackson-datatype-jsr310-2.9.9.jar portal-service-6.2.0-GA
+ 1.jar commons-logging-1.2.jar jackson-databind-2.9.9.jar classmate-1.
+ 4.0.jar logback-core-1.2.3.jar springfox-schema-2.2.2.jar springfox-s
+ pi-2.2.2.jar spring-boot-starter-logging-2.1.6.RELEASE.jar commons-ma
+ th3-3.6.1.jar aspectjrt-1.9.4.jar mybatis-spring-1.2.3.jar log4j-api-
+ 2.11.2.jar spring-boot-2.1.6.RELEASE.jar
+Main-Class: com.zzu.demo.DemoApplication
+

@@ -1,0 +1,72 @@
+2020-12-03 16:49:25.611 dev ERROR 22296 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field personService in com.zzu.demo.server.UserService required a bean of type 'com.zzu.demo.server.PersonService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zzu.demo.server.PersonService' in your configuration.
+
+2020-12-03 18:57:15.698 dev ERROR 22296 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field personService in com.zzu.demo.server.UserService required a bean of type 'com.zzu.demo.server.PersonService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zzu.demo.server.PersonService' in your configuration.
+
+2020-12-03 18:57:28.295 dev ERROR 22296 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field personService in com.zzu.demo.server.UserService required a bean of type 'com.zzu.demo.server.PersonService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zzu.demo.server.PersonService' in your configuration.
+
+2020-12-03 18:57:43.518 dev ERROR 22296 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field personService in com.zzu.demo.server.UserService required a bean of type 'com.zzu.demo.server.PersonService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zzu.demo.server.PersonService' in your configuration.
+

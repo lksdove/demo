@@ -1,0 +1,775 @@
+2020-08-27 14:55:54.939 dev  INFO 7592 --- [main] com.zzu.demo.DemoApplicationTests        : Starting DemoApplicationTests on likangshuai with PID 7592 (started by 14377 in E:\demo)
+2020-08-27 14:55:54.952 dev  INFO 7592 --- [main] com.zzu.demo.DemoApplicationTests        : The following profiles are active: dev
+2020-08-27 14:55:57.503 dev  INFO 7592 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5bd9e47f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 14:55:57.564 dev  INFO 7592 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 14:55:57.611 dev  INFO 7592 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b7421f80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 14:56:01.301 dev  INFO 7592 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 14:56:01.728 dev  INFO 7592 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 14:56:03.851 dev  INFO 7592 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 14:56:04.312 dev  INFO 7592 --- [main] com.zzu.demo.DemoApplicationTests        : Started DemoApplicationTests in 10.548 seconds (JVM running for 12.393)
+2020-08-27 14:56:04.326 dev  INFO 7592 --- [main] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 14:56:04.326 dev  INFO 7592 --- [main] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 14:56:04.327 dev  INFO 7592 --- [main] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 14:56:04.327 dev  INFO 7592 --- [main] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 14:56:04.341 dev  INFO 7592 --- [main] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T14:56:04.340
+2020-08-27 14:56:04.810 dev  INFO 7592 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 14:56:05.137 dev  INFO 7592 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 14:56:05.143 dev  INFO 7592 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 14:56:05.148 dev  INFO 7592 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 14:58:23.945 dev  INFO 10468 --- [main] com.zzu.demo.DemoApplicationTests        : Starting DemoApplicationTests on likangshuai with PID 10468 (started by 14377 in E:\demo)
+2020-08-27 14:58:23.947 dev  INFO 10468 --- [main] com.zzu.demo.DemoApplicationTests        : The following profiles are active: dev
+2020-08-27 14:58:27.278 dev  INFO 10468 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b17e1eba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 14:58:27.355 dev  INFO 10468 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 14:58:27.423 dev  INFO 10468 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ce659bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 14:58:33.300 dev  INFO 10468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 14:58:33.920 dev  INFO 10468 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 14:58:37.668 dev  INFO 10468 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 14:58:37.863 dev  INFO 10468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 14:58:37.871 dev  INFO 10468 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-08-27 15:00:12.638 dev  INFO 18288 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 18288 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 15:00:12.639 dev  INFO 18288 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 15:00:12.767 dev  INFO 18288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 15:00:12.768 dev  INFO 18288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 15:00:15.622 dev  INFO 18288 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$de32f0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:00:15.678 dev  INFO 18288 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 15:00:15.738 dev  INFO 18288 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$694b6a0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:00:16.312 dev  INFO 18288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 15:00:16.330 dev  INFO 18288 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:00:16.340 dev  INFO 18288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 15:00:16.341 dev  INFO 18288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 15:00:16.349 dev  INFO 18288 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 15:00:16.349 dev  INFO 18288 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 15:00:16.349 dev  INFO 18288 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 15:00:16.354 dev  INFO 18288 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 15:00:16.639 dev  INFO 18288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:00:16.639 dev  INFO 18288 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3871 ms
+2020-08-27 15:00:19.229 dev  INFO 18288 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:00:19.455 dev  INFO 18288 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 15:00:20.110 dev  INFO 18288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 15:00:20.129 dev  INFO 18288 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 15:00:20.361 dev  INFO 18288 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:00:20.400 dev  INFO 18288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 15:00:20.404 dev  INFO 18288 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 8.737 seconds (JVM running for 10.826)
+2020-08-27 15:00:20.418 dev  INFO 18288 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 15:00:20.419 dev  INFO 18288 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 15:00:20.419 dev  INFO 18288 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 15:00:20.419 dev  INFO 18288 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 15:00:20.425 dev  INFO 18288 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T15:00:20.425
+2020-08-27 15:00:21.139 dev  INFO 18288 --- [RMI TCP Connection(1)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 15:00:21.140 dev  INFO 18288 --- [RMI TCP Connection(1)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 15:00:21.158 dev  INFO 18288 --- [RMI TCP Connection(1)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-08-27 15:00:21.167 dev  INFO 18288 --- [RMI TCP Connection(2)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 15:02:40.404 dev  INFO 18288 --- [Thread-25] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:02:40.406 dev  INFO 18288 --- [Thread-25] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 15:02:40.409 dev  INFO 18288 --- [Thread-25] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 15:02:52.386 dev  INFO 23020 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 23020 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 15:02:52.388 dev  INFO 23020 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 15:02:52.587 dev  INFO 23020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 15:02:52.588 dev  INFO 23020 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 15:02:56.886 dev  INFO 23020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d9384c16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:02:56.925 dev  INFO 23020 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 15:02:56.982 dev  INFO 23020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34a08717] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:02:57.593 dev  INFO 23020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 15:02:57.610 dev  INFO 23020 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:02:57.622 dev  INFO 23020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 15:02:57.622 dev  INFO 23020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 15:02:57.633 dev  INFO 23020 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 15:02:57.633 dev  INFO 23020 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 15:02:57.633 dev  INFO 23020 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 15:02:57.640 dev  INFO 23020 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 15:02:57.893 dev  INFO 23020 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:02:57.893 dev  INFO 23020 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5304 ms
+2020-08-27 15:03:00.442 dev  INFO 23020 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:03:00.657 dev  INFO 23020 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 15:03:01.262 dev  INFO 23020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 15:03:01.278 dev  INFO 23020 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 15:03:01.503 dev  INFO 23020 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:03:01.540 dev  INFO 23020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 15:03:01.544 dev  INFO 23020 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 10.3 seconds (JVM running for 13.06)
+2020-08-27 15:03:01.557 dev  INFO 23020 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 15:03:01.558 dev  INFO 23020 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 15:03:01.558 dev  INFO 23020 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 15:03:01.558 dev  INFO 23020 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 15:03:01.564 dev  INFO 23020 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T15:03:01.564
+2020-08-27 15:03:03.014 dev  INFO 23020 --- [RMI TCP Connection(2)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 15:03:03.014 dev  INFO 23020 --- [RMI TCP Connection(2)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 15:03:03.035 dev  INFO 23020 --- [RMI TCP Connection(2)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2020-08-27 15:03:03.042 dev  INFO 23020 --- [RMI TCP Connection(3)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 15:04:11.419 dev  INFO 23020 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:04:11.420 dev  INFO 23020 --- [Thread-28] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 15:04:11.424 dev  INFO 23020 --- [Thread-28] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 15:04:18.985 dev  INFO 15668 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 15668 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 15:04:18.986 dev  INFO 15668 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 15:04:19.092 dev  INFO 15668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 15:04:19.092 dev  INFO 15668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 15:04:21.428 dev  INFO 15668 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$bd1f9283] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:04:21.469 dev  INFO 15668 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 15:04:21.511 dev  INFO 15668 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1887cd84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:04:22.032 dev  INFO 15668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 15:04:22.049 dev  INFO 15668 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:04:22.060 dev  INFO 15668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 15:04:22.060 dev  INFO 15668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 15:04:22.069 dev  INFO 15668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 15:04:22.070 dev  INFO 15668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 15:04:22.070 dev  INFO 15668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 15:04:22.074 dev  INFO 15668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 15:04:22.301 dev  INFO 15668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:04:22.302 dev  INFO 15668 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3209 ms
+2020-08-27 15:04:25.125 dev  INFO 15668 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:04:25.349 dev  INFO 15668 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 15:04:26.129 dev  INFO 15668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 15:04:26.142 dev  INFO 15668 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 15:04:26.378 dev  INFO 15668 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:04:26.414 dev  INFO 15668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 15:04:26.418 dev  INFO 15668 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 8.113 seconds (JVM running for 9.807)
+2020-08-27 15:04:26.434 dev  INFO 15668 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 15:04:26.435 dev  INFO 15668 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 15:04:26.435 dev  INFO 15668 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 15:04:26.435 dev  INFO 15668 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 15:04:26.443 dev  INFO 15668 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T15:04:26.443
+2020-08-27 15:04:26.829 dev  INFO 15668 --- [RMI TCP Connection(3)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 15:04:28.127 dev  INFO 15668 --- [RMI TCP Connection(5)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 15:04:28.128 dev  INFO 15668 --- [RMI TCP Connection(5)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 15:04:28.136 dev  INFO 15668 --- [RMI TCP Connection(5)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-08-27 15:05:28.951 dev  INFO 15668 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:05:28.952 dev  INFO 15668 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 15:05:28.956 dev  INFO 15668 --- [Thread-18] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 15:05:29.861 dev  INFO 15668 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 15668 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 15:05:29.861 dev  INFO 15668 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 15:05:30.744 dev  INFO 15668 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$bd1f9283] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:05:30.746 dev  INFO 15668 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 15:05:30.756 dev  INFO 15668 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1887cd84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:05:30.895 dev  INFO 15668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 15:05:30.898 dev  INFO 15668 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:05:30.899 dev  INFO 15668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 15:05:30.899 dev  INFO 15668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 15:05:30.900 dev  INFO 15668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 15:05:30.900 dev  INFO 15668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 15:05:30.900 dev  INFO 15668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 15:05:30.901 dev  INFO 15668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 15:05:30.935 dev  INFO 15668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:05:30.936 dev  INFO 15668 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1068 ms
+2020-08-27 15:05:31.323 dev  INFO 15668 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-08-27 15:05:31.324 dev  INFO 15668 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-08-27 15:05:49.461 dev  INFO 14860 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 14860 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 15:05:49.462 dev  INFO 14860 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 15:05:49.630 dev  INFO 14860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 15:05:49.631 dev  INFO 14860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 15:05:52.223 dev  INFO 14860 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$619ed978] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:05:52.262 dev  INFO 14860 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 15:05:52.304 dev  INFO 14860 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd071479] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:05:53.210 dev  INFO 14860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 15:05:53.244 dev  INFO 14860 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:05:53.263 dev  INFO 14860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 15:05:53.264 dev  INFO 14860 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 15:05:53.280 dev  INFO 14860 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 15:05:53.281 dev  INFO 14860 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 15:05:53.281 dev  INFO 14860 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 15:05:53.291 dev  INFO 14860 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 15:05:53.689 dev  INFO 14860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:05:53.689 dev  INFO 14860 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4058 ms
+2020-08-27 15:05:56.580 dev  INFO 14860 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:05:56.789 dev  INFO 14860 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 15:05:57.376 dev  INFO 14860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 15:05:57.393 dev  INFO 14860 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 15:05:57.503 dev  INFO 14860 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:05:57.537 dev  INFO 14860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 15:05:57.543 dev  INFO 14860 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 9.211 seconds (JVM running for 11.092)
+2020-08-27 15:05:57.559 dev  INFO 14860 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 15:05:57.559 dev  INFO 14860 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 15:05:57.559 dev  INFO 14860 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 15:05:57.559 dev  INFO 14860 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 15:05:57.566 dev  INFO 14860 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T15:05:57.565
+2020-08-27 15:05:57.881 dev  INFO 14860 --- [RMI TCP Connection(1)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 15:05:57.881 dev  INFO 14860 --- [RMI TCP Connection(1)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 15:05:57.894 dev  INFO 14860 --- [RMI TCP Connection(1)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-08-27 15:05:59.219 dev  INFO 14860 --- [RMI TCP Connection(3)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 15:06:42.162 dev  INFO 14860 --- [Thread-26] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:06:42.163 dev  INFO 14860 --- [Thread-26] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 15:06:42.166 dev  INFO 14860 --- [Thread-26] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 15:06:49.354 dev  INFO 8896 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 8896 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 15:06:49.355 dev  INFO 8896 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 15:06:49.463 dev  INFO 8896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 15:06:49.463 dev  INFO 8896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 15:06:51.675 dev  INFO 8896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2bd06f9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:06:51.714 dev  INFO 8896 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 15:06:51.748 dev  INFO 8896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8738aa9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:06:52.217 dev  INFO 8896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 15:06:52.241 dev  INFO 8896 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:06:52.251 dev  INFO 8896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 15:06:52.251 dev  INFO 8896 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 15:06:52.261 dev  INFO 8896 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 15:06:52.262 dev  INFO 8896 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 15:06:52.262 dev  INFO 8896 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 15:06:52.266 dev  INFO 8896 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 15:06:52.534 dev  INFO 8896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:06:52.535 dev  INFO 8896 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3072 ms
+2020-08-27 15:06:55.101 dev  INFO 8896 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:06:55.328 dev  INFO 8896 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 15:06:55.935 dev  INFO 8896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 15:06:55.953 dev  INFO 8896 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 15:06:56.066 dev  INFO 8896 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:06:56.094 dev  INFO 8896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 15:06:56.098 dev  INFO 8896 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 7.443 seconds (JVM running for 9.118)
+2020-08-27 15:06:56.117 dev  INFO 8896 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 15:06:56.117 dev  INFO 8896 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 15:06:56.117 dev  INFO 8896 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 15:06:56.118 dev  INFO 8896 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 15:06:56.124 dev  INFO 8896 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T15:06:56.124
+2020-08-27 15:06:57.529 dev  INFO 8896 --- [RMI TCP Connection(3)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 15:06:57.529 dev  INFO 8896 --- [RMI TCP Connection(3)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 15:06:57.547 dev  INFO 8896 --- [RMI TCP Connection(3)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-08-27 15:06:57.552 dev  INFO 8896 --- [RMI TCP Connection(2)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 15:07:41.713 dev  INFO 8896 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:07:41.714 dev  INFO 8896 --- [Thread-20] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 15:07:41.718 dev  INFO 8896 --- [Thread-20] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 15:07:42.918 dev  INFO 8896 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 8896 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 15:07:42.918 dev  INFO 8896 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 15:07:43.950 dev  INFO 8896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2bd06f9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:07:43.952 dev  INFO 8896 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 15:07:43.964 dev  INFO 8896 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8738aa9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:07:44.137 dev  INFO 8896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 15:07:44.141 dev  INFO 8896 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:07:44.141 dev  INFO 8896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 15:07:44.142 dev  INFO 8896 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 15:07:44.142 dev  INFO 8896 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 15:07:44.143 dev  INFO 8896 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 15:07:44.143 dev  INFO 8896 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 15:07:44.143 dev  INFO 8896 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 15:07:44.177 dev  INFO 8896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:07:44.178 dev  INFO 8896 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1254 ms
+2020-08-27 15:07:44.891 dev  INFO 8896 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-08-27 15:07:44.892 dev  INFO 8896 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-08-27 15:08:35.476 dev  INFO 24236 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 24236 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 15:08:35.478 dev  INFO 24236 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 15:08:35.616 dev  INFO 24236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 15:08:35.616 dev  INFO 24236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 15:08:38.571 dev  INFO 24236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$10fefb9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:08:38.603 dev  INFO 24236 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 15:08:38.637 dev  INFO 24236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c67369c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:08:39.150 dev  INFO 24236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 15:08:39.165 dev  INFO 24236 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:08:39.176 dev  INFO 24236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 15:08:39.177 dev  INFO 24236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 15:08:39.186 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 15:08:39.187 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 15:08:39.187 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 15:08:39.191 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 15:08:39.427 dev  INFO 24236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:08:39.427 dev  INFO 24236 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3811 ms
+2020-08-27 15:08:41.863 dev  INFO 24236 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:08:42.057 dev  INFO 24236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 15:08:42.568 dev  INFO 24236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 15:08:42.581 dev  INFO 24236 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 15:08:42.678 dev  INFO 24236 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:08:42.705 dev  INFO 24236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 15:08:42.709 dev  INFO 24236 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 8.106 seconds (JVM running for 9.933)
+2020-08-27 15:08:42.722 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 15:08:42.722 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 15:08:42.722 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 15:08:42.722 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 15:08:42.727 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T15:08:42.727
+2020-08-27 15:08:43.391 dev  INFO 24236 --- [RMI TCP Connection(1)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 15:08:43.391 dev  INFO 24236 --- [RMI TCP Connection(1)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 15:08:43.408 dev  INFO 24236 --- [RMI TCP Connection(1)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-08-27 15:08:43.415 dev  INFO 24236 --- [RMI TCP Connection(2)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 15:10:30.018 dev  INFO 24236 --- [Thread-21] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:10:30.020 dev  INFO 24236 --- [Thread-21] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 15:10:30.024 dev  INFO 24236 --- [Thread-21] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 15:10:30.998 dev  INFO 24236 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 24236 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 15:10:30.998 dev  INFO 24236 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 15:10:32.166 dev  INFO 24236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$10fefb9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:10:32.168 dev  INFO 24236 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 15:10:32.186 dev  INFO 24236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c67369c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:10:32.409 dev  INFO 24236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 15:10:32.416 dev  INFO 24236 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:10:32.417 dev  INFO 24236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 15:10:32.417 dev  INFO 24236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 15:10:32.419 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 15:10:32.419 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 15:10:32.420 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 15:10:32.420 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 15:10:32.447 dev  INFO 24236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:10:32.448 dev  INFO 24236 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1446 ms
+2020-08-27 15:10:34.196 dev  INFO 24236 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:10:34.326 dev  INFO 24236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 15:10:34.916 dev  INFO 24236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 15:10:34.939 dev  INFO 24236 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 15:10:35.207 dev  INFO 24236 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:10:35.212 dev  INFO 24236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 15:10:35.213 dev  INFO 24236 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 4.274 seconds (JVM running for 122.436)
+2020-08-27 15:10:35.219 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 15:10:35.219 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 15:10:35.219 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 15:10:35.220 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 15:10:35.220 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T15:10:35.220
+2020-08-27 15:10:35.225 dev  INFO 24236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-27 15:10:35.306 dev  INFO 24236 --- [http-nio-8989-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 15:10:35.308 dev  INFO 24236 --- [http-nio-8989-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 15:10:35.321 dev  INFO 24236 --- [http-nio-8989-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-08-27 15:10:39.408 dev  INFO 24236 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:10:39.408 dev  INFO 24236 --- [Thread-34] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-08-27 15:10:40.490 dev  INFO 24236 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 24236 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 15:10:40.491 dev  INFO 24236 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 15:10:41.692 dev  INFO 24236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$10fefb9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:10:41.694 dev  INFO 24236 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 15:10:41.706 dev  INFO 24236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c67369c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:10:41.881 dev  INFO 24236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 15:10:41.883 dev  INFO 24236 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:10:41.884 dev  INFO 24236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 15:10:41.885 dev  INFO 24236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 15:10:41.886 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 15:10:41.886 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 15:10:41.886 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 15:10:41.887 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 15:10:41.912 dev  INFO 24236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:10:41.912 dev  INFO 24236 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1413 ms
+2020-08-27 15:10:43.388 dev  INFO 24236 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:10:43.523 dev  INFO 24236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 15:10:43.945 dev  INFO 24236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 15:10:43.958 dev  INFO 24236 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 15:10:44.057 dev  INFO 24236 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:10:44.062 dev  INFO 24236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 15:10:44.063 dev  INFO 24236 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 3.637 seconds (JVM running for 131.286)
+2020-08-27 15:10:44.067 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 15:10:44.067 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 15:10:44.067 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 15:10:44.067 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 15:10:44.069 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T15:10:44.068
+2020-08-27 15:10:44.072 dev  INFO 24236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-27 15:10:44.197 dev  INFO 24236 --- [http-nio-8989-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 15:10:44.203 dev  INFO 24236 --- [http-nio-8989-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 15:10:44.222 dev  INFO 24236 --- [http-nio-8989-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-08-27 15:11:13.953 dev  INFO 24236 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:11:13.954 dev  INFO 24236 --- [Thread-40] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-08-27 15:11:15.013 dev  INFO 24236 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 24236 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 15:11:15.013 dev  INFO 24236 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 15:11:15.852 dev  INFO 24236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$10fefb9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:11:15.854 dev  INFO 24236 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 15:11:15.866 dev  INFO 24236 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c67369c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:11:16.010 dev  INFO 24236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 15:11:16.011 dev  INFO 24236 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:11:16.012 dev  INFO 24236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 15:11:16.012 dev  INFO 24236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 15:11:16.012 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 15:11:16.013 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 15:11:16.013 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 15:11:16.013 dev  INFO 24236 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 15:11:16.030 dev  INFO 24236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:11:16.030 dev  INFO 24236 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1011 ms
+2020-08-27 15:11:17.349 dev  INFO 24236 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:11:17.466 dev  INFO 24236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 15:11:17.891 dev  INFO 24236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 15:11:17.907 dev  INFO 24236 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 15:11:18.001 dev  INFO 24236 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:11:18.006 dev  INFO 24236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 15:11:18.007 dev  INFO 24236 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 3.074 seconds (JVM running for 165.23)
+2020-08-27 15:11:18.012 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 15:11:18.012 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 15:11:18.012 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 15:11:18.012 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 15:11:18.013 dev  INFO 24236 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T15:11:18.013
+2020-08-27 15:11:18.016 dev  INFO 24236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-27 15:11:29.353 dev  INFO 24236 --- [http-nio-8989-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 15:11:29.354 dev  INFO 24236 --- [http-nio-8989-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 15:11:29.361 dev  INFO 24236 --- [http-nio-8989-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-08-27 15:11:29.367 dev  INFO 24236 --- [http-nio-8989-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2020-08-27 15:13:45.603 dev  INFO 24236 --- [Thread-51] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:13:45.604 dev  INFO 24236 --- [Thread-51] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closing ...
+2020-08-27 15:13:45.605 dev  INFO 24236 --- [Thread-51] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2020-08-27 15:13:55.661 dev  INFO 17824 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 17824 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 15:13:55.661 dev  INFO 17824 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 15:13:55.767 dev  INFO 17824 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 15:13:55.768 dev  INFO 17824 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 15:13:58.314 dev  INFO 17824 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4741dbd4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:13:58.354 dev  INFO 17824 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 15:13:58.398 dev  INFO 17824 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a2aa16d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:13:58.956 dev  INFO 17824 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 15:13:58.974 dev  INFO 17824 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:13:58.983 dev  INFO 17824 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 15:13:58.983 dev  INFO 17824 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 15:13:58.991 dev  INFO 17824 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 15:13:58.991 dev  INFO 17824 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 15:13:58.991 dev  INFO 17824 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 15:13:58.996 dev  INFO 17824 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 15:13:59.266 dev  INFO 17824 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:13:59.267 dev  INFO 17824 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3499 ms
+2020-08-27 15:14:01.972 dev  INFO 17824 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:14:02.188 dev  INFO 17824 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 15:14:02.792 dev  INFO 17824 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 15:14:02.808 dev  INFO 17824 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 15:14:02.914 dev  INFO 17824 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:14:02.946 dev  INFO 17824 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 15:14:02.949 dev  INFO 17824 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 7.988 seconds (JVM running for 9.731)
+2020-08-27 15:14:02.965 dev  INFO 17824 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 15:14:02.966 dev  INFO 17824 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 15:14:02.966 dev  INFO 17824 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 15:14:02.966 dev  INFO 17824 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 15:14:02.973 dev  INFO 17824 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T15:14:02.973
+2020-08-27 15:14:03.712 dev  INFO 17824 --- [RMI TCP Connection(1)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 15:14:03.712 dev  INFO 17824 --- [RMI TCP Connection(1)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 15:14:03.726 dev  INFO 17824 --- [RMI TCP Connection(1)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-08-27 15:14:03.737 dev  INFO 17824 --- [RMI TCP Connection(2)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 15:52:42.596 dev  INFO 17824 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:52:42.597 dev  INFO 17824 --- [Thread-24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 15:52:42.599 dev  INFO 17824 --- [Thread-24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 15:52:49.874 dev  INFO 23508 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 23508 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 15:52:49.875 dev  INFO 23508 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 15:52:49.979 dev  INFO 23508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 15:52:49.979 dev  INFO 23508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 15:52:52.198 dev  INFO 23508 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d195440e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:52:52.228 dev  INFO 23508 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 15:52:52.256 dev  INFO 23508 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2cfd7f0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 15:52:52.685 dev  INFO 23508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 15:52:52.704 dev  INFO 23508 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:52:52.716 dev  INFO 23508 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 15:52:52.716 dev  INFO 23508 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 15:52:52.726 dev  INFO 23508 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 15:52:52.727 dev  INFO 23508 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 15:52:52.727 dev  INFO 23508 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 15:52:52.730 dev  INFO 23508 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 15:52:52.989 dev  INFO 23508 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 15:52:52.989 dev  INFO 23508 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3009 ms
+2020-08-27 15:52:55.583 dev  INFO 23508 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 15:52:55.772 dev  INFO 23508 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 15:52:56.299 dev  INFO 23508 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 15:52:56.310 dev  INFO 23508 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 15:52:56.401 dev  INFO 23508 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 15:52:56.432 dev  INFO 23508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 15:52:56.437 dev  INFO 23508 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 7.216 seconds (JVM running for 8.857)
+2020-08-27 15:52:56.449 dev  INFO 23508 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 15:52:56.449 dev  INFO 23508 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 15:52:56.449 dev  INFO 23508 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 15:52:56.449 dev  INFO 23508 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 15:52:56.455 dev  INFO 23508 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T15:52:56.455
+2020-08-27 15:52:57.332 dev  INFO 23508 --- [RMI TCP Connection(3)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 15:52:57.333 dev  INFO 23508 --- [RMI TCP Connection(3)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 15:52:57.347 dev  INFO 23508 --- [RMI TCP Connection(3)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-08-27 15:52:57.352 dev  INFO 23508 --- [RMI TCP Connection(4)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 16:01:47.985 dev  INFO 23508 --- [Thread-21] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:01:47.986 dev  INFO 23508 --- [Thread-21] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 16:01:47.988 dev  INFO 23508 --- [Thread-21] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 16:01:55.548 dev  INFO 1392 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 1392 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 16:01:55.549 dev  INFO 1392 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 16:01:55.656 dev  INFO 1392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 16:01:55.656 dev  INFO 1392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 16:01:57.654 dev  INFO 1392 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1fa0c026] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:01:57.687 dev  INFO 1392 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 16:01:57.718 dev  INFO 1392 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b08fb27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:01:58.141 dev  INFO 1392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 16:01:58.155 dev  INFO 1392 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:01:58.163 dev  INFO 1392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 16:01:58.164 dev  INFO 1392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 16:01:58.172 dev  INFO 1392 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 16:01:58.173 dev  INFO 1392 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 16:01:58.173 dev  INFO 1392 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 16:01:58.177 dev  INFO 1392 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 16:01:58.400 dev  INFO 1392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 16:01:58.401 dev  INFO 1392 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2744 ms
+2020-08-27 16:02:00.737 dev  INFO 1392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:02:00.918 dev  INFO 1392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 16:02:01.449 dev  INFO 1392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 16:02:01.462 dev  INFO 1392 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 16:02:01.552 dev  INFO 1392 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:02:01.580 dev  INFO 1392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 16:02:01.584 dev  INFO 1392 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 6.661 seconds (JVM running for 8.316)
+2020-08-27 16:02:01.600 dev  INFO 1392 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 16:02:01.601 dev  INFO 1392 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 16:02:01.601 dev  INFO 1392 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 16:02:01.601 dev  INFO 1392 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 16:02:01.606 dev  INFO 1392 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T16:02:01.606
+2020-08-27 16:02:02.583 dev  INFO 1392 --- [RMI TCP Connection(1)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 16:02:02.583 dev  INFO 1392 --- [RMI TCP Connection(1)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 16:02:02.597 dev  INFO 1392 --- [RMI TCP Connection(1)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-08-27 16:02:02.602 dev  INFO 1392 --- [RMI TCP Connection(2)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 16:05:16.505 dev  INFO 1392 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:05:16.505 dev  INFO 1392 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 16:05:16.508 dev  INFO 1392 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 16:05:23.579 dev  INFO 24852 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 24852 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 16:05:23.580 dev  INFO 24852 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 16:05:23.696 dev  INFO 24852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 16:05:23.697 dev  INFO 24852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 16:05:25.785 dev  INFO 24852 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c5a40832] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:05:25.816 dev  INFO 24852 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 16:05:25.845 dev  INFO 24852 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$210c4333] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:05:26.275 dev  INFO 24852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 16:05:26.291 dev  INFO 24852 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:05:26.300 dev  INFO 24852 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 16:05:26.301 dev  INFO 24852 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 16:05:26.308 dev  INFO 24852 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 16:05:26.308 dev  INFO 24852 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 16:05:26.308 dev  INFO 24852 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 16:05:26.312 dev  INFO 24852 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 16:05:26.568 dev  INFO 24852 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 16:05:26.569 dev  INFO 24852 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2872 ms
+2020-08-27 16:05:28.922 dev  INFO 24852 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:05:29.112 dev  INFO 24852 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 16:05:29.646 dev  INFO 24852 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 16:05:29.658 dev  INFO 24852 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 16:05:29.766 dev  INFO 24852 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:05:29.793 dev  INFO 24852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 16:05:29.797 dev  INFO 24852 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 6.878 seconds (JVM running for 8.487)
+2020-08-27 16:05:29.813 dev  INFO 24852 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 16:05:29.813 dev  INFO 24852 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 16:05:29.813 dev  INFO 24852 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 16:05:29.814 dev  INFO 24852 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 16:05:29.820 dev  INFO 24852 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T16:05:29.820
+2020-08-27 16:05:30.765 dev  INFO 24852 --- [RMI TCP Connection(3)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 16:05:30.765 dev  INFO 24852 --- [RMI TCP Connection(3)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 16:05:30.775 dev  INFO 24852 --- [RMI TCP Connection(3)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-08-27 16:05:32.003 dev  INFO 24852 --- [RMI TCP Connection(5)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 16:32:40.423 dev  INFO 24852 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:32:40.424 dev  INFO 24852 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 16:32:40.427 dev  INFO 24852 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 16:32:47.871 dev  INFO 18224 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 18224 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 16:32:47.872 dev  INFO 18224 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 16:32:47.973 dev  INFO 18224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 16:32:47.974 dev  INFO 18224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 16:32:50.229 dev  INFO 18224 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c0893bd5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:32:50.261 dev  INFO 18224 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 16:32:50.289 dev  INFO 18224 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1bf176d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:32:50.738 dev  INFO 18224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 16:32:50.754 dev  INFO 18224 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:32:50.766 dev  INFO 18224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 16:32:50.767 dev  INFO 18224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 16:32:50.776 dev  INFO 18224 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 16:32:50.777 dev  INFO 18224 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 16:32:50.777 dev  INFO 18224 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 16:32:50.782 dev  INFO 18224 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 16:32:51.061 dev  INFO 18224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 16:32:51.062 dev  INFO 18224 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3088 ms
+2020-08-27 16:32:53.581 dev  INFO 18224 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:32:53.800 dev  INFO 18224 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 16:32:54.354 dev  INFO 18224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 16:32:54.367 dev  INFO 18224 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 16:32:54.472 dev  INFO 18224 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:32:54.499 dev  INFO 18224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 16:32:54.504 dev  INFO 18224 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 7.297 seconds (JVM running for 8.956)
+2020-08-27 16:32:54.518 dev  INFO 18224 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 16:32:54.518 dev  INFO 18224 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 16:32:54.518 dev  INFO 18224 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 16:32:54.518 dev  INFO 18224 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 16:32:54.524 dev  INFO 18224 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T16:32:54.524
+2020-08-27 16:32:54.823 dev  INFO 18224 --- [RMI TCP Connection(1)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 16:32:56.076 dev  INFO 18224 --- [RMI TCP Connection(3)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 16:32:56.077 dev  INFO 18224 --- [RMI TCP Connection(3)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 16:32:56.086 dev  INFO 18224 --- [RMI TCP Connection(3)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-08-27 16:34:35.018 dev  INFO 18224 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:34:35.018 dev  INFO 18224 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 16:34:35.021 dev  INFO 18224 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 16:34:42.600 dev  INFO 7216 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 7216 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 16:34:42.600 dev  INFO 7216 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 16:34:42.707 dev  INFO 7216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 16:34:42.708 dev  INFO 7216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 16:34:44.881 dev  INFO 7216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6e2b9479] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:34:44.920 dev  INFO 7216 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 16:34:44.956 dev  INFO 7216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c993cf7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:34:45.505 dev  INFO 7216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 16:34:45.522 dev  INFO 7216 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:34:45.532 dev  INFO 7216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 16:34:45.533 dev  INFO 7216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 16:34:45.542 dev  INFO 7216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 16:34:45.542 dev  INFO 7216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 16:34:45.542 dev  INFO 7216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 16:34:45.547 dev  INFO 7216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 16:34:45.794 dev  INFO 7216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 16:34:45.794 dev  INFO 7216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3086 ms
+2020-08-27 16:34:48.180 dev  INFO 7216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:34:48.377 dev  INFO 7216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 16:34:48.893 dev  INFO 7216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 16:34:48.904 dev  INFO 7216 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 16:34:49.002 dev  INFO 7216 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:34:49.032 dev  INFO 7216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 16:34:49.036 dev  INFO 7216 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 7.097 seconds (JVM running for 8.758)
+2020-08-27 16:34:49.051 dev  INFO 7216 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 16:34:49.051 dev  INFO 7216 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 16:34:49.051 dev  INFO 7216 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 16:34:49.051 dev  INFO 7216 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 16:34:49.057 dev  INFO 7216 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T16:34:49.057
+2020-08-27 16:34:50.797 dev  INFO 7216 --- [RMI TCP Connection(2)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 16:34:50.798 dev  INFO 7216 --- [RMI TCP Connection(2)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 16:34:50.812 dev  INFO 7216 --- [RMI TCP Connection(2)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-08-27 16:34:50.816 dev  INFO 7216 --- [RMI TCP Connection(3)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 16:39:05.629 dev  INFO 7216 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:39:05.630 dev  INFO 7216 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 16:39:05.633 dev  INFO 7216 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 16:39:14.136 dev  INFO 18192 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 18192 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 16:39:14.148 dev  INFO 18192 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 16:39:14.217 dev  INFO 18192 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 16:39:14.217 dev  INFO 18192 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 16:39:16.242 dev  INFO 18192 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$41eeb740] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:39:16.273 dev  INFO 18192 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 16:39:16.303 dev  INFO 18192 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d56f241] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:39:16.735 dev  INFO 18192 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 16:39:16.749 dev  INFO 18192 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:39:16.757 dev  INFO 18192 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 16:39:16.757 dev  INFO 18192 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 16:39:16.766 dev  INFO 18192 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 16:39:16.766 dev  INFO 18192 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 16:39:16.766 dev  INFO 18192 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 16:39:16.770 dev  INFO 18192 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 16:39:17.010 dev  INFO 18192 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 16:39:17.010 dev  INFO 18192 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2793 ms
+2020-08-27 16:39:19.393 dev  INFO 18192 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:39:19.599 dev  INFO 18192 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 16:39:20.145 dev  INFO 18192 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 16:39:20.156 dev  INFO 18192 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 16:39:20.258 dev  INFO 18192 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:39:20.287 dev  INFO 18192 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 16:39:20.291 dev  INFO 18192 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 7.287 seconds (JVM running for 9.337)
+2020-08-27 16:39:20.303 dev  INFO 18192 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 16:39:20.303 dev  INFO 18192 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 16:39:20.303 dev  INFO 18192 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 16:39:20.303 dev  INFO 18192 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 16:39:20.308 dev  INFO 18192 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T16:39:20.308
+2020-08-27 16:39:20.994 dev  INFO 18192 --- [RMI TCP Connection(3)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 16:39:20.994 dev  INFO 18192 --- [RMI TCP Connection(3)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 16:39:21.008 dev  INFO 18192 --- [RMI TCP Connection(3)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-08-27 16:39:21.014 dev  INFO 18192 --- [RMI TCP Connection(4)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 16:47:33.367 dev  INFO 18192 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:47:33.368 dev  INFO 18192 --- [Thread-19] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 16:47:33.371 dev  INFO 18192 --- [Thread-19] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 16:47:41.628 dev  INFO 17872 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 17872 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 16:47:41.630 dev  INFO 17872 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 16:47:41.744 dev  INFO 17872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 16:47:41.744 dev  INFO 17872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 16:47:43.649 dev  INFO 17872 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$562000d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:47:43.683 dev  INFO 17872 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 16:47:43.716 dev  INFO 17872 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1883bd9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:47:44.193 dev  INFO 17872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 16:47:44.212 dev  INFO 17872 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:47:44.224 dev  INFO 17872 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 16:47:44.225 dev  INFO 17872 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 16:47:44.232 dev  INFO 17872 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 16:47:44.233 dev  INFO 17872 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 16:47:44.233 dev  INFO 17872 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 16:47:44.238 dev  INFO 17872 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 16:47:44.455 dev  INFO 17872 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 16:47:44.456 dev  INFO 17872 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2711 ms
+2020-08-27 16:47:47.051 dev  INFO 17872 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:47:47.247 dev  INFO 17872 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 16:47:47.756 dev  INFO 17872 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 16:47:47.767 dev  INFO 17872 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 16:47:47.862 dev  INFO 17872 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:47:47.890 dev  INFO 17872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 16:47:47.894 dev  INFO 17872 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 7.362 seconds (JVM running for 9.258)
+2020-08-27 16:47:47.907 dev  INFO 17872 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 16:47:47.907 dev  INFO 17872 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 16:47:47.908 dev  INFO 17872 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 16:47:47.908 dev  INFO 17872 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 16:47:47.913 dev  INFO 17872 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T16:47:47.913
+2020-08-27 16:47:49.255 dev  INFO 17872 --- [RMI TCP Connection(5)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 16:47:49.255 dev  INFO 17872 --- [RMI TCP Connection(5)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 16:47:49.266 dev  INFO 17872 --- [RMI TCP Connection(5)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-08-27 16:47:49.272 dev  INFO 17872 --- [RMI TCP Connection(4)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 16:48:35.424 dev  INFO 17872 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:48:35.425 dev  INFO 17872 --- [Thread-20] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 16:48:35.428 dev  INFO 17872 --- [Thread-20] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 16:48:43.436 dev  INFO 18076 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 18076 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 16:48:43.437 dev  INFO 18076 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 16:48:43.588 dev  INFO 18076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 16:48:43.589 dev  INFO 18076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 16:48:45.599 dev  INFO 18076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$cf37569f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:48:45.630 dev  INFO 18076 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 16:48:45.660 dev  INFO 18076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2a9f91a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:48:46.147 dev  INFO 18076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 16:48:46.165 dev  INFO 18076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:48:46.177 dev  INFO 18076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 16:48:46.178 dev  INFO 18076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 16:48:46.186 dev  INFO 18076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 16:48:46.186 dev  INFO 18076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 16:48:46.186 dev  INFO 18076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 16:48:46.191 dev  INFO 18076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 16:48:46.434 dev  INFO 18076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 16:48:46.435 dev  INFO 18076 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2846 ms
+2020-08-27 16:48:49.111 dev  INFO 18076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:48:49.324 dev  INFO 18076 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 16:48:49.915 dev  INFO 18076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 16:48:49.930 dev  INFO 18076 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 16:48:50.054 dev  INFO 18076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:48:50.087 dev  INFO 18076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 16:48:50.091 dev  INFO 18076 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 7.642 seconds (JVM running for 9.458)
+2020-08-27 16:48:50.108 dev  INFO 18076 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 16:48:50.108 dev  INFO 18076 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 16:48:50.108 dev  INFO 18076 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 16:48:50.109 dev  INFO 18076 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 16:48:50.115 dev  INFO 18076 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T16:48:50.115
+2020-08-27 16:48:50.945 dev  INFO 18076 --- [RMI TCP Connection(1)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 16:48:50.945 dev  INFO 18076 --- [RMI TCP Connection(1)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 16:48:50.963 dev  INFO 18076 --- [RMI TCP Connection(1)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-08-27 16:48:50.974 dev  INFO 18076 --- [RMI TCP Connection(2)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 16:49:30.049 dev  INFO 18076 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:49:30.051 dev  INFO 18076 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 16:49:30.055 dev  INFO 18076 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 16:49:42.641 dev  INFO 2672 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 2672 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 16:49:42.642 dev  INFO 2672 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 16:49:42.794 dev  INFO 2672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 16:49:42.794 dev  INFO 2672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 16:49:45.173 dev  INFO 2672 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a27fe364] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:49:45.237 dev  INFO 2672 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 16:49:45.300 dev  INFO 2672 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fde81e65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:49:46.046 dev  INFO 2672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 16:49:46.072 dev  INFO 2672 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:49:46.091 dev  INFO 2672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 16:49:46.092 dev  INFO 2672 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 16:49:46.105 dev  INFO 2672 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 16:49:46.106 dev  INFO 2672 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 16:49:46.107 dev  INFO 2672 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 16:49:46.113 dev  INFO 2672 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 16:49:46.595 dev  INFO 2672 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 16:49:46.596 dev  INFO 2672 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3801 ms
+2020-08-27 16:49:50.192 dev  INFO 2672 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:49:50.586 dev  INFO 2672 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 16:49:51.414 dev  INFO 2672 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 16:49:51.430 dev  INFO 2672 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 16:49:51.572 dev  INFO 2672 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:49:51.608 dev  INFO 2672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 16:49:51.613 dev  INFO 2672 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 10.017 seconds (JVM running for 12.021)
+2020-08-27 16:49:51.629 dev  INFO 2672 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 16:49:51.629 dev  INFO 2672 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 16:49:51.629 dev  INFO 2672 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 16:49:51.629 dev  INFO 2672 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 16:49:51.637 dev  INFO 2672 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T16:49:51.637
+2020-08-27 16:49:52.510 dev  INFO 2672 --- [RMI TCP Connection(2)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 16:49:52.510 dev  INFO 2672 --- [RMI TCP Connection(2)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 16:49:52.529 dev  INFO 2672 --- [RMI TCP Connection(2)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-08-27 16:49:52.536 dev  INFO 2672 --- [RMI TCP Connection(1)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 16:50:16.761 dev  INFO 2672 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:50:16.762 dev  INFO 2672 --- [Thread-27] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 16:50:16.767 dev  INFO 2672 --- [Thread-27] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-08-27 16:50:28.899 dev  INFO 21704 --- [restartedMain] com.zzu.demo.DemoApplication             : Starting DemoApplication on likangshuai with PID 21704 (E:\demo\target\classes started by 14377 in E:\demo)
+2020-08-27 16:50:28.900 dev  INFO 21704 --- [restartedMain] com.zzu.demo.DemoApplication             : The following profiles are active: dev
+2020-08-27 16:50:29.061 dev  INFO 21704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-27 16:50:29.062 dev  INFO 21704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-27 16:50:31.403 dev  INFO 21704 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5899a1ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:50:31.464 dev  INFO 21704 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-27 16:50:31.527 dev  INFO 21704 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b401dcf0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-27 16:50:32.386 dev  INFO 21704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-08-27 16:50:32.427 dev  INFO 21704 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:50:32.448 dev  INFO 21704 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-27 16:50:32.449 dev  INFO 21704 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-27 16:50:32.467 dev  INFO 21704 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-08-27 16:50:32.468 dev  INFO 21704 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-27 16:50:32.469 dev  INFO 21704 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-27 16:50:32.475 dev  INFO 21704 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-08-27 16:50:32.890 dev  INFO 21704 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-27 16:50:32.890 dev  INFO 21704 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3827 ms
+2020-08-27 16:50:35.872 dev  INFO 21704 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-27 16:50:36.071 dev  INFO 21704 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-27 16:50:36.647 dev  INFO 21704 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-27 16:50:36.660 dev  INFO 21704 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-27 16:50:36.768 dev  INFO 21704 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2020-08-27 16:50:36.800 dev  INFO 21704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path ''
+2020-08-27 16:50:36.805 dev  INFO 21704 --- [restartedMain] com.zzu.demo.DemoApplication             : Started DemoApplication in 8.975 seconds (JVM running for 10.865)
+2020-08-27 16:50:36.821 dev  INFO 21704 --- [restartedMain] com.zzu.demo.runner.LastRunner           :  __    ___   _      ___   _     ____ _____  ____ 
+2020-08-27 16:50:36.821 dev  INFO 21704 --- [restartedMain] com.zzu.demo.runner.LastRunner           : / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-08-27 16:50:36.821 dev  INFO 21704 --- [restartedMain] com.zzu.demo.runner.LastRunner           : \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-08-27 16:50:36.821 dev  INFO 21704 --- [restartedMain] com.zzu.demo.runner.LastRunner           :                                                       
+2020-08-27 16:50:36.826 dev  INFO 21704 --- [restartedMain] com.zzu.demo.runner.LastRunner           : DEMO 启动完毕，时间：2020-08-27T16:50:36.826
+2020-08-27 16:50:37.907 dev  INFO 21704 --- [RMI TCP Connection(3)-192.200.6.58] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-27 16:50:37.908 dev  INFO 21704 --- [RMI TCP Connection(3)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-27 16:50:37.926 dev  INFO 21704 --- [RMI TCP Connection(3)-192.200.6.58] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-08-27 16:50:37.933 dev  INFO 21704 --- [RMI TCP Connection(4)-192.200.6.58] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-08-27 17:05:51.412 dev  INFO 21704 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-27 17:05:51.413 dev  INFO 21704 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-08-27 17:05:51.416 dev  INFO 21704 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
