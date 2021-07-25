@@ -5,8 +5,9 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.6.RELEASE</version>
-        <!--<version>1.5.8.RELEASE</version>-->
+<!--        <version>2.1.6.RELEASE</version>-->
+        <version>2.6.0-M1</version><!--mac使用这个，windows使用上面的 -->
+<!--        <version>1.5.8.RELEASE</version>-->
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zzu</groupId>
@@ -20,7 +21,7 @@
         <!--指定打包jar的启动类-->
         <start-class>com.zzu.demo.DemoApplication</start-class>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <mysql.version>5.1.1</mysql.version>
+        <mysql.version>8.0.11</mysql.version>
         <org.mapstruct.version>1.3.1.Final</org.mapstruct.version>
     </properties>
 
@@ -36,11 +37,19 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <scope>test</scope>
+        </dependency>
         <!--mysql  jar-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>${mysql.version}</version>
+<!--            <version>5.1.1</version>--><!--windows上mysql是5.1版本，mac是8.0.11版本 -->
+            <version>8.0.11</version>
         </dependency>
         <!--Druid jar-->
         <dependency>
@@ -180,5 +189,25 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 
 </project>

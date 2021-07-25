@@ -10,6 +10,7 @@ import com.zzu.demo.hutoolDemo.mail.WhhMailUtil;
 import com.zzu.demo.server.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -21,18 +22,14 @@ import java.util.Optional;
  */
 @Slf4j
 @RestController
-@RequestMapping(value = "/user", method = RequestMethod.POST)
+@RequestMapping(value = "/user")
 //@Valid
 public class UserController {
     @Autowired
     private UserService userService;
-    @Autowired
-    private Obj obj;
-    @Autowired
-    private Test1 test1;
 
-    @PostMapping("getPerson")
-    public Person selectPerson(Integer id) {
+    @RequestMapping(value = "getPerson",method = {RequestMethod.GET})
+    public Person selectPerson() {
         return new Person(1,"asd");
 //        return userService.selectPerson(id);
     }
@@ -77,14 +74,14 @@ public class UserController {
 //        ObjectMapper mapper = new ObjectMapper();
 //        System.err.println(mapper.writeValueAsString(new DogDTO()));
 //    }
-    public static void main(String[] args) {
-        User user = new User();
-        user.setId(100);
-        user.setName("qwe");
-        user.setAge(200);
-        String userStr = JSON.toJSONString(user);
-        System.err.println(userStr);
-        User parseObject = JSON.parseObject(userStr, User.class);
-        System.err.println(parseObject.toString());
-    }
+//    public static void main(String[] args) {
+//        User user = new User();
+//        user.setId(100);
+//        user.setName("qwe");
+//        user.setAge(200);
+//        String userStr = JSON.toJSONString(user);
+//        System.err.println(userStr);
+//        User parseObject = JSON.parseObject(userStr, User.class);
+//        System.err.println(parseObject.toString());
+//    }
 }
